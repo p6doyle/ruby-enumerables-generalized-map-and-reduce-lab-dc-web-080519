@@ -16,7 +16,7 @@ def reduce (array, start = nil)
     i = 0
 
   else 
-    total = array[0
+    total = array[0]
     i = 0
   
   while i < array.length do
@@ -24,5 +24,4 @@ def reduce (array, start = nil)
   i += 1
  	end
  	return total
-
 end
