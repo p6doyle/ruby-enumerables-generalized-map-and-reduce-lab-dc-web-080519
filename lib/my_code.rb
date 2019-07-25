@@ -10,7 +10,7 @@ return new
 end
 
 
-def reduce (array, start = nil)
+def reduce (array, start = yield)
   total = start
   i = 0
   
