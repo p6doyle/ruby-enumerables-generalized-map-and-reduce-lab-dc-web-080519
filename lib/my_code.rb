@@ -16,7 +16,7 @@ def reduce (array, start = nil)
   i = 0
   
   else 
-    total = nil  
+    
   end
   
   while i < array.length do
