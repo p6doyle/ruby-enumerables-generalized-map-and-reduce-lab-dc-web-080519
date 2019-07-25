@@ -11,6 +11,7 @@ end
 
 
 def reduce (array, start = nil)
+  if start = do
   total = start
   i = 0
   
@@ -19,4 +20,6 @@ def reduce (array, start = nil)
   i += 1
  	end
  	return total
+ 	
+ 	else p false
 end
