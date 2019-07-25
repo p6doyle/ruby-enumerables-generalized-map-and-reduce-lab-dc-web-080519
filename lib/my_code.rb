@@ -10,7 +10,7 @@ return new
 end
 
 
-def reduce (array, start = 1)
+def reduce (array, start = 0)
   total = start
   i = 0
   
